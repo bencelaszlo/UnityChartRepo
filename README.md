@@ -1,7 +1,7 @@
 # UnityChartRepo
 Unity project for world and screen space rendering simple 2D charts in Unity. It allows the creation of customizable and interactive 2D line charts.
 
-You can try a live demo here (built with Unity WebGL).
+You can try a live demo [here](https://jromerao.github.io/UnityChartRepo/) (built with Unity WebGL).
 
 All coding contributions and comments are welcome.
 
@@ -60,6 +60,6 @@ The *UnityChart/Scripts/Extensions/MarkerInteractableChart.cs* contains a set of
  }
  ```
 
-For the live demo a customized and hidden slider is manually positioned and fitted above the chart layout. Then, the user is able to interact with the slider as if it was interacting directly with the chart marker.
+For the [live demo](https://jromerao.github.io/UnityChartRepo/) a customized and hidden slider is manually positioned and fitted above the chart layout. Then, the user is able to interact with the slider as if it was interacting directly with the chart marker.
 
 All chart element game objects are set to lie in layer `20: UnityChart`. You can make them invisible to any camera by using the camera's culling mask option.
