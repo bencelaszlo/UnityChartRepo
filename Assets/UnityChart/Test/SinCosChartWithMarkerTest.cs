@@ -1,4 +1,4 @@
-﻿// unity
+﻿// Unity
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
@@ -55,7 +55,7 @@ public class SinCosChartWithMarkerTest : MonoBehaviour
         interactableComponent.MarkerIndexList.Add(0); // marker at position X: 0
         interactableComponent.MarkerColorList.Add(Color.red); // marker color: red
 
-        UpdateChartDsiplay();
+        UpdateChartDisplay();
 
         // Configure slider
         slider = GameObject.FindObjectOfType<Slider>();
@@ -66,7 +66,7 @@ public class SinCosChartWithMarkerTest : MonoBehaviour
     }
 
 	// Update is called once per frame
-	void Update ()
+	void Update()
     {
 		
 	}
@@ -85,16 +85,16 @@ public class SinCosChartWithMarkerTest : MonoBehaviour
     public void SinusToggleValueChanged(Toggle toggle)
     {
         displaySinus = toggle.isOn;
-        UpdateChartDsiplay();
+        UpdateChartDisplay();
     }
 
     public void CosinusToggleValueChanged(Toggle toggle)
     {
         displayCosinus = toggle.isOn;
-        UpdateChartDsiplay();
+        UpdateChartDisplay();
     }
 
-    private void UpdateChartDsiplay()
+    private void UpdateChartDisplay()
     {
         // Set chart data
         ChartHolder chartHolder = chart.GetComponent<ChartHolder>();
